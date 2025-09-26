@@ -1,0 +1,125 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: white; 
+   
+    background: 
+        linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0.4) 60%, rgba(0, 0, 0, 0.8) 100%), /* Dark gradient overlay */
+        url('https://assets.nflxext.com/ffe/siteui/vlv3/8d617e19-3c3c-4c28-8998-c9b14dbc7200/web/IN-en-20250901-TRIFECTA-perspective_48d84d4e-9558-46b8-a0f3-8b2dc8478431_large.jpg') no-repeat center center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+
+.logo {
+    position: absolute;
+    top: 25px;
+    left: 50px;
+}
+
+.logo img {
+    height: 45px;
+    width: auto;
+    padding: 0; /
+}
+
+.language {
+    
+    position: absolute;
+    top: 35px;
+    right: 50px;
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+    padding: 0;
+    
+    
+    color: white; 
+    font-size: 1.2rem;
+}
+
+
+#lang {
+    background-color: rgba(0, 0, 0, 0.6); 
+    border: 1px solid white;
+    color: white;
+    padding: 7px 15px; 
+    border-radius: 4px;
+    font-size: 1rem;
+   
+    line-height: normal; 
+}
+
+
+#btn2 {
+    background-color: #E50914; 
+    color: white;
+    border: none;
+    padding: 7px 17px;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 0.9rem;
+    line-height: normal;
+}
+
+
+.heading {
+   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    max-width: 950px;
+}
+
+.heading h1 {
+    font-size: 3.2rem;
+    font-weight: 900;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.heading p {
+    font-size: 1.5rem;
+    margin: 15px 0;
+}
+
+
+#mail {
+    width: 450px;
+    height: 55px;
+    padding: 10px 10px;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); 
+    border: 1px solid #8c8c8c;
+    border-radius: 4px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+#btn {
+    background-color: #E50914; 
+    color: white;
+    width: 170px;
+    height: 55px;
+    font-weight: 600;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    vertical-align: middle;
+    transition: background-color 0.2s;
+}
+
+#btn:hover {
+    background-color: #f40612;
+}
